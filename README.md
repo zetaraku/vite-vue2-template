@@ -1,24 +1,26 @@
-# vuetify-demo
+# vite-vue2-template
+
+This is a minimal [Vite](https://vitejs.dev/) + [Vue 2](https://vuejs.org/) starter template, using [vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2).
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Start development server
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Build for production
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Locally preview production build
 ```
-npm run lint
+npm run serve
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuring Vite](https://vitejs.dev/config/) and [vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2).

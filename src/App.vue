@@ -1,19 +1,28 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img
+      alt="Vue logo"
+      src="./assets/vue-logo.png"
+      style="width: 200px; padding: 0px"
+    />
+    <img
+      alt="Vite logo"
+      src="./assets/vite-logo.svg"
+      style="width: 200px; padding: 12px"
+    />
+    <HelloWorld msg="Hello Vue 2 + Vite" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+};
 </script>
 
 <style>
